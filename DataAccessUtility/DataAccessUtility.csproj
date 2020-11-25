@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>BLA.DataAccessUtility.Standard</PackageId>
+    <Company>BLA.DataAccessUtility.Standard</Company>
+    <Product>BLA.DataAccessUtility.Standard</Product>
+    <Authors>BLA.DataAccessUtility.Standard</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>dotnet core</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.31" />
+  </ItemGroup>
+
+</Project>
